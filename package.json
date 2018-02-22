@@ -1,7 +1,6 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.0.2"
-  }
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aripovula/node-course-todo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aripovula/node-course-todo-api/issues"
+  },
+  "homepage": "https://github.com/aripovula/node-course-todo-api#readme",
+  "description": ""
 }
